@@ -1,0 +1,6 @@
+package com.javalec.ex;
+import 
+
+public class LogAop {
+	public Object loggerAop(proceeding)
+}

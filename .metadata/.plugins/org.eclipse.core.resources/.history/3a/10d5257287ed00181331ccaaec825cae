@@ -1,0 +1,12 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import model.Message;
+import jdbc.JdbcUtil;
+
+public abstract class MessageDao {
+	public abstract int insert(Connection conn,Message message) throws SQLException;
+	
+}
